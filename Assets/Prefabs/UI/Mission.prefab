@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 1572934320481587729}
   - component: {fileID: 1165707201056663814}
   - component: {fileID: 6558090793143834239}
-  - component: {fileID: 2575378480072577008}
+  - component: {fileID: 2778840966962670912}
   m_Layer: 5
   m_Name: Mission
   m_TagString: Untagged
@@ -192,7 +192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.7, y: -30.9}
+  m_AnchoredPosition: {x: 268, y: 56.440002}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1165707201056663814
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2575378480072577008
+--- !u!114 &2778840966962670912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,9 +242,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7365271489121092955}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5edb4e9d63782b448c3641522fa3c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 52561deb90744f4c82a5ff83cbf91e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Priority: 2
+  MissionImage: {fileID: 6558090793143834239}
   DrawArrowRadial: {fileID: 8508023193485619334}
   AddRequirementRadial: {fileID: 7887137242711768143}
   AddRewardRadial: {fileID: 7338119955464044990}
